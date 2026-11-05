@@ -42,3 +42,7 @@ de páginas web, organização visual e acessibilidade.
 Fernanda
 
 Estudante de Análise e Desenvolvimento de Sistemas.
+
+##Vídeo de apresentação
+
+https://www.loom.com/share/dcafc9abf054441993b9d0ad40300376
