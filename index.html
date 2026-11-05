@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<HTML lang="pt-BR">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfólio pessoal de Fernanda, estudante de Análise e Desenvolvimento de Sistemas. Conheça meus projetos, habilidades e experiências.">
+
+        <TITLE> 
+            Portifolio Fernanda
+        </TITLE>
+      <style>
+
+             :root {--rosa-principal: #c2185b; --rosa-fundo: #f8d7e5; --rosa-claro: #fff0f5;}
+
+             body {background-color: var(--rosa-fundo); margin: 0%; min-height: 100vh; display: flex; flex-direction: column;} 
+              H1 {text-align:center; font-size: 40px;}
+              img {width: 400px; display: block; margin: 20px auto;}
+              header {background-color: var(--rosa-principal); color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px; padding: 20px; width: 100%;}
+              header h1 {margin: 0; text-align: center; font-size: 40px;}
+              header nav a {color: white; text-decoration: none; margin: 0 10px;}
+
+              footer {background-color: var(--rosa-principal); color: white; text-align: center; padding: 25px; margin-top: auto;}
+              footer a {color: white; text-decoration: underline;}
+              footer a:hover {color: #ffe0ec;}
+
+             .projeto p {max-width: 900px; margin: 20px auto; text-align: center; line-height: 1.2;}
+             .projeto {display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px;}
+             .projeto h4,.projeto p {grid-column: 1 / -1;}
+             .projeto img {width: 100%; height: 400px; object-fit: contain; display: block; margin: 0; border-radius: 10px;}
+             
+             #habilidades {background-color: var(--rosa-claro); padding: 25px; margin: 20px; border-radius: 15px; text-align: center;}
+             #habilidades h3 {color: var(--rosa-principal); font-size: 28px; margin-bottom: 20px;}
+             #habilidades h4 {color: var(--rosa-principal); font-size: 20px; margin-top: 20px; margin-bottom: 10px;}
+             #habilidades p {color: #333333; font-size: 16px; line-height: 1.6;}
+             #sobre {text-align: center; max-width: 900px; margin: 30px auto; padding: 20px;}
+             #sobre h3 {margin-top: 40px;}
+             #home p {text-align: center;}
+             #projetos {text-align: center; padding: 20px; margin: 30px auto; width: 100%; box-sizing: border-box;}
+
+             #formulario-contato {max-width: 450px; margin: 25px auto; display: flex; flex-direction: column; gap: 12px; text-align: left;}
+             #formulario-contato label {color: white; font-size: 16px;}
+             #formulario-contato input,
+             #formulario-contato textarea {padding: 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 16px; font-family: Arial, sans-serif;}
+             #formulario-contato textarea {min-height: 100px; resize: vertical;}
+             #formulario-contato button {background-color: var(--rosa-claro);;background-color: var(--rosa-principal); border: none; padding: 12px; border-radius: 8px; font-size: 16px; cursor: pointer;}
+             #formulario-contato button:hover {background-color: var(--rosa-claro);}
+             @media (max-width: 600px) {.projeto {grid-template-columns: 1fr;}.projeto img { width: 90%; height: auto; display: block; margin: 15px auto;}}
+             #formulario-contato input:user-invalid,
+             #formulario-contato textarea:user-invalid {border: 2px solid #e53935; background-color: #fff5f5;}
+             #home a {display: block; width: fit-content; margin: 20px auto; padding: 12px 25px;background-color: var(--rosa-principal); color: white; text-decoration: none; border-radius: 10px; font-size: 16px; transition: background-color 0.3s, transform 0.3s;}
+             #home a:hover {background-color: #880e4f; transform: scale(1.05);}
+             
+      </style>
+     </head>
+         <body>
+            <header>
+                 <nav> 
+                    <a href="#home"> Início </a> 
+                <a href="#sobre"> Sobre mim </a>
+                <a href="#projetos">Meus Projetos</a>
+                <a href="#habilidades"> Habilidades</a>
+              </nav>
+
+                <H1> Fernanda </H1>  
+
+            </header>
+             <section id="home"> 
+                <img src ="foto_nanda.jpeg" alt="Foto da estudante de Análise e Desenvolvimento de Sistemas" >
+                <p>Estudante de Análise e Desenvolvimento de Sistemas, apaixonada por plantas, culinária, dança e esportes</p>
+                <section id="home">
+                 <a href="#contato">Entre em contato</a>
+            </section>
+                <section id="sobre"> 
+                    <H2> Sobre mim</H2>
+                    <p> Oi, meu nome é Fernanda, tenho 18 anos, atualmente sou estudante de Análise e Desenvolvimento de Sistemas. 
+                        Trabalho como feirante e comecei minha trajetória profissional cedo, ajudando meus pais. 
+                        Essa experiência me ensinou responsabilidade, dedicação e o valor do trabalho. Tenho interesse por 
+                        tecnologia e gosto de aprender coisas novas. Também sou apaixonada por plantas, cozinhar, dançar balé e fazer
+                        esportes. Atualmente, busco ampliar meus conhecimentos e construir meu caminho na área de tecnologia.</p>
+                     
+                        <h3>Formação Acadêmica</h3>
+                     <p>Ensino Médio — concluído.</p>
+                     <p>Graduação em Análise e Desenvolvimento de Sistemas — em andamento.</p>
+
+                </section>
+            
+            </section>
+            <section id="projetos"> 
+                <H3> Meus Projetos </H3>
+                <div class="projeto">
+    <h4>Projeto de Astronomia</h4>
+
+    <p>
+        Durante o ensino médio, participei de um projeto de astronomia no qual eu liderei
+        a organização da equipe da turma.
+
+        Construímos modelos dos planetas, um telescópio e toda a estrutura da sala. Essa experiência contribuiu
+        para desenvolver minhas habilidades de liderança, organização, criatividade e trabalho em equipe.
+    </p>
+
+    <img src="foto_1.jpeg" alt="Foto 1 do projeto de astronomia">
+    <img src="foto_2.jpeg" alt="Foto 2 do projeto de astronomia">
+    <img src="foto_3.jpeg" alt="Foto 3 do projeto de astronomia">
+</div>
+            </section>
+<section id="habilidades">
+    <h3>Minhas Habilidades</h3>
+    <h4>Habilidades Técnicas</h4>
+    <p> HTML e CSS (em aprendizado).</p>
+
+    <h4> Comunicação e Aprendizagem </h4>
+    <p> Atendimento ao público, facilidade para socializar,
+        interesse pelos estudos e facilidade para aprender
+        coisas novas. </p>
+
+    <h4>Habilidades Práticas e Criativas</h4>
+    <p> Dança, cultivo e cuidados com plantas, gastronomia, além de habilidades relacionadas à prática de esportes. </p>
+</section>
+            <footer id="contato">
+                 <H4> Contato </H4>
+
+                 <p>Email:
+                 <a href="mailto:nandaiga213@gmail.com">
+                 nandaiga213@gmail.com </a> </p>
+
+                Instagram:
+                <a href="https://www.instagram.com/_fefe.mgs/"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                 @_fefe.mgs </a> </p>
+
+                <form id="formulario-contato"
+                 action="mailto:nandaiga213@gmail.com"
+                 method="post"
+                 enctype="text/plain">
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" required></textarea>
+
+    <button type="submit">Enviar mensagem</button>
+</form>
+            </footer>
+        </body> 
+</HTML>
